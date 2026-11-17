@@ -61,6 +61,10 @@
 
 /* ---- AI acceptance story additions ---- */
 .zh-title{font-size:clamp(40px,7vw,96px)!important;line-height:1.12!important;letter-spacing:-.05em!important;word-break:keep-all}
+.hero h1:not(.hero-title-zh){font-size:clamp(40px,5.6vw,112px)!important;line-height:1.02!important;letter-spacing:-.045em!important}
+.hero h1:not(.hero-title-zh) .title-line:first-child{flex-direction:column;align-items:flex-start}
+.hero h1:not(.hero-title-zh) .title-line:first-child i{margin-left:0;margin-top:.06em}
+.hero h1:not(.hero-title-zh) .title-second{font-size:.96em}
 .zh-title em{display:block}
 .factor-pool{display:flex;flex-wrap:wrap;gap:10px;align-content:flex-start;align-items:center;padding:22px;border:1px dashed var(--line);border-radius:14px;min-height:120px;position:relative;margin-top:34px}
 .factor-count,.factor-reset{font:10px 'DM Mono',monospace;color:var(--muted);align-self:center}
